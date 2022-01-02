@@ -162,34 +162,45 @@ body{
     font-size: 15px;
 }
 
-.languages{
-    background-color: #E5E7EB;
-    padding: 0 200px;
-}
-
-figure {
-    display: inline-block;
+.front-languages{
     align-items: center;
 }
 
-figcaption {
+.front-languages-info {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
-    font-stretch: extra-condensed;
-    font-family: 'Roboto', arial;
-
 }
 
-figure img{
-    width: 100px; 
+.front-languages-info img{
+    width: 100px;
     height: 100px;
     object-fit: cover;
     border: 4px solid #3882F6;
-    border-radius: 15px;
-    margin: 5px 20px 0px 20px;
+    border-radius: 20px;
+    margin: 10px 20px 0px 20px;
 }
+
+.back-languages{
+    align-items: center;
+    background-color:#71757a
+}
+
+.back-languages-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.back-languages-info img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    margin: 10px 20px 0px 20px;
+}
+
 
 .contact{
     display: flex; 
